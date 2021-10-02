@@ -8,7 +8,8 @@ tf.__version__
 ```python
 from tensorflow.python.client import device_lib
 print(device_lib.list_local_devices())
----
+```
+```
 [name: "/device:CPU:0"
 device_type: "CPU"
 memory_limit: 268435456
